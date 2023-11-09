@@ -1,0 +1,51 @@
+header{
+    width: 80%;
+    margin: auto;
+}
+.container-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav {
+    text-decoration: none;
+    padding: 35px;
+    color: black;
+    align-items: center;
+    
+}
+.button{
+    padding: 10px;
+    width: 130px;
+    border-radius: 20px;
+    background: transparent;
+    border: 1px solid greenyellow;
+    
+}
+.button_2{
+    padding: 20px;
+    width: 160px;
+    border: 1px solid rgb(2, 255, 2);
+    border-radius: 25px;
+    background-color: rgb(2, 255, 2);
+    box-shadow: 2px 2px 20px 2px rgb(2, 255, 2);
+}
+.container {
+    height: 400px;
+    width: 100%;
+}
+.fon{
+    width: 50%;
+    height: 100%;
+    background-image: url(Group\ 76.png);
+    background-size: 80% 90%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+.text{
+    font-size: 50px;
+    margin-top: 20px;
+    position: relative;
+    left: 50px;
+
+}
